@@ -1,0 +1,43 @@
+.bg {
+  position: fixed;
+  background-color: #000000d1;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+}
+
+.sample {
+  max-width: 1200px;
+  width: 50vw;
+  padding: 115px 0;
+}
+
+.close {
+  position: absolute;
+  z-index: 6;
+  top: 25px;
+  right: 25px;
+  width: 80px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.close:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+@media screen and (max-width: 768px) {
+  .sample {
+    width: 75vw;
+  }
+  .close {
+    width: 70px;
+  }
+}
+/*# sourceMappingURL=Modal.module.css.map */

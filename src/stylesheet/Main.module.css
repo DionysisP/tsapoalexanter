@@ -1,0 +1,117 @@
+.backgroundServices, .backgroundGallery, .backgroundContact, .backgroundServicesMotion, .backgroundGalleryMotion, .backgroundContactMotion {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.backgroundServicesMotion {
+  background-position: right;
+}
+
+.backgroundGalleryMotion {
+  background-position: top;
+}
+
+.backgroundContactMotion {
+  background-position: top;
+}
+
+.backgroundServices, .backgroundServicesMotion {
+  background-image: url("../img/services.jpg");
+  width: 50vw;
+  height: 100vh;
+  top: 0;
+  background-size: 120%;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.backgroundGallery, .backgroundGalleryMotion {
+  background-image: url("../img/gallery.jpg");
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  right: 0;
+}
+
+.backgroundContact, .backgroundContactMotion {
+  background-image: url("../img/contact.jpg");
+  width: 50%;
+  height: 50vh;
+  right: 0;
+  bottom: 0;
+}
+
+.filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #00000063;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+.more {
+  top: 50%;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    width: 70vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  .more {
+    font-size: 12px;
+    padding-top: 1vh;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .backgroundServices, .backgroundServicesMotion {
+    top: 10%;
+    width: 100vw;
+    max-height: 30vh;
+  }
+  .backgroundGallery, .backgroundGalleryMotion {
+    width: 100vw;
+    max-height: 30vh;
+    top: 40%;
+  }
+  .backgroundContact, .backgroundContactMotion {
+    width: 100vw;
+    max-height: 30vh;
+    top: 70%;
+  }
+  .text {
+    top: 40%;
+  }
+}
+/*# sourceMappingURL=Main.module.css.map */

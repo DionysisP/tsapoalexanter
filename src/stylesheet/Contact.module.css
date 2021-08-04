@@ -1,0 +1,128 @@
+.box, .boxTransparent {
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.box {
+  background: white;
+  z-index: 2;
+  display: block;
+}
+
+.boxTransparent {
+  background: transparent;
+  z-index: -1;
+  display: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.container {
+  padding: 7.5vw;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.container h2 {
+  color: #3058A0;
+  text-transform: uppercase;
+  padding-bottom: 56px;
+}
+
+.container p {
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.phonemail {
+  position: absolute;
+  top: 70%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+section img {
+  width: 25px;
+}
+
+.icon2 {
+  width: 18px;
+  margin-right: 6px;
+}
+
+section p {
+  line-height: 2;
+  color: #3058A0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .box, .boxTransparent {
+    display: block;
+    width: 80vw;
+    padding: 0 10vw;
+    height: 80vh;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .boxTransparent {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .box {
+    z-index: 0;
+    height: 90%;
+  }
+  .container {
+    padding: 0;
+  }
+  .container h2 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+  }
+  .container p {
+    line-height: 1.6;
+    width: auto;
+  }
+  .phonemail {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: initial;
+    margin-top: 20vh;
+  }
+  .phonemail p {
+    font-size: 16px;
+  }
+  section {
+    padding: 10px 0;
+  }
+  section img {
+    width: 40px;
+  }
+  .icon2 {
+    width: 28px;
+  }
+}
+/*# sourceMappingURL=Contact.module.css.map */

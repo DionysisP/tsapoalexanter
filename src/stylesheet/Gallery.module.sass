@@ -1,0 +1,89 @@
+.container
+    position: absolute
+    top: 15vh
+    z-index: 1
+    text-align: center
+    width: 80vw
+    margin: 0 10vw
+    height: 80vh
+    overflow-y: scroll
+
+.showcase
+    position: relative
+    z-index: 1
+    // display: flex
+    display: block
+    justify-content: center
+    flex-wrap: wrap
+    max-width: 1200px
+    margin: 0 auto
+    align-items: center
+    margin-top: 50px
+
+.showcase h2
+    padding: 20px 0
+    font-size: 18px
+    
+.allPhotos
+    width: 214px
+    height: 144px
+    margin: 15px
+    cursor: pointer
+    border-radius: 3px
+    transition: 1s
+
+.allPhotos:hover
+    transform: scale(1.1)
+    box-shadow: 2px 2px 12px grey
+
+.goBackDesktop
+    position: fixed
+    z-index: 2
+    background-color: #ffffff
+    padding: 20px 0
+    width: 80vw
+    top: 20vw
+    left: 20vw
+  
+
+.goBackDesktop img
+    float: left
+    padding-left: 15px
+    width: 20px
+    transform: rotate(180deg)
+
+.goBackDesktop p
+    float: left
+    font-size: 18px
+    margin-left: 12px
+    cursor: pointer
+
+.title
+    display: none
+.collection
+    padding: 50px 0
+.collectionTitle
+    font-size: 18px
+    // text-align: right
+    // border-bottom: 1px solid black
+    padding: 15px 0
+
+@media screen and ( max-width: 768px )
+    .allPhotos
+        width: 60vw
+        height: auto
+        margin: 15px 0
+
+    .title
+        color: #3058A0
+        display: block
+        padding: 30px 0
+        font-size: 24px
+
+    .goBackDesktop
+        display: none
+
+    .container
+        overflow-y: scroll
+    .collection
+        padding: 0

@@ -1,0 +1,79 @@
+.container {
+  position: relative;
+  z-index: 2;
+  width: 35%;
+  max-width: 800px;
+  padding: 0 7.5%;
+  top: 15vh;
+  line-height: 171%;
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.container h2 {
+  color: #3058A0;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 30px 0;
+}
+
+.lists {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container ul {
+  color: #3058A0;
+  padding: 0 0 0 2vw;
+}
+
+.brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5vw 0;
+}
+
+.brands img {
+  width: 120px;
+  max-height: 50px;
+  padding: 1.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+    width: 80vw;
+    padding: 0 10vw;
+  }
+  .description {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .lists {
+    display: block;
+  }
+  .container ul {
+    text-align: left;
+  }
+  .container h2 {
+    color: #3058A0;
+    text-transform: uppercase;
+    padding: 70px 0 0 0;
+  }
+  .brands {
+    padding: 10vw 0;
+  }
+}
+/*# sourceMappingURL=Services.module.css.map */

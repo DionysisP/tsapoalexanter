@@ -1,0 +1,55 @@
+.backHome, .backContact {
+  cursor: pointer;
+  background-color: white;
+  display: none;
+}
+
+.backHome {
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  padding: 0 0 20px 0;
+}
+
+.backContact {
+  position: fixed;
+  margin-top: 40px;
+}
+
+.backContact p {
+  font-size: 16px;
+}
+
+.backGallery {
+  background-color: white;
+  width: 78%;
+  position: fixed;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.goBackHome, .goBackContact, .goBackGallery {
+  width: 15px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .backHome {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .backContact {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+/*# sourceMappingURL=Back.module.css.map */

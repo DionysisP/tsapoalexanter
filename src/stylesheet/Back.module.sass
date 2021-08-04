@@ -1,0 +1,42 @@
+.backHome, .backContact
+    cursor: pointer
+    background-color: white
+    display: none
+    
+.backHome
+    position: fixed
+    width: 80%
+    left: 10%
+    padding: 0 0 20px 0
+
+.backContact
+    position: fixed
+    margin-top: 40px
+    
+
+.backContact p
+    font-size: 16px
+
+
+.backGallery
+    background-color: white
+    width: 78%
+    position: fixed
+    z-index: 2
+    display: flex
+    text-align: left
+    padding: 20px 0
+    cursor: pointer
+
+.goBackHome, .goBackContact, .goBackGallery
+    width: 15px
+    transform: rotate(180deg)
+    margin-right: 10px
+
+@media screen and ( max-width: 768px  )
+
+    .backHome
+        display: inline-flex
+
+    .backContact
+        display: inline-flex
