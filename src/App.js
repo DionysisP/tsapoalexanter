@@ -67,7 +67,6 @@ export default function App() {
         mouseLeave={() => setGalleryBgMovement(false)}
         onExpand={() => expandHeader(false, 2)} />
 
-
       <ScreenDivider text='Επικοινωνια'
         bg={contactBgMovement ? main.backgroundContactMotion : main.backgroundContact}
         mouseOver={() => setContactBgMovement(true)}

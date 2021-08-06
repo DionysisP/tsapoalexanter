@@ -35,8 +35,7 @@ export default function Gallery(props) {
                             className={style.allPhotos}
                             src={require('../img/gallery/' + single).default}
                             onClick={() => openImage(require('../img/gallery/' + single).default)}
-                            alt={single} />
-                    )
+                            alt={single} />)
                 }
 
                 return (

@@ -190,8 +190,6 @@ const imagesFile =
             ]
         }
        
-        
-
     ]
 
 export default imagesFile;
