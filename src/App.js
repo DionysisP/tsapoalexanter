@@ -9,6 +9,7 @@ import ScreenDivider from './components/ScreenDivider'
 import Services from './components/Services'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default function App() {
 
@@ -74,6 +75,8 @@ export default function App() {
         onExpand={() => expandHeader(true, 3)} />
 
       <Contact bg={showContact ? contactStyle.box : contactStyle.boxTransparent} goBack={() => setShowContact(false)} />
+
+      <Footer />
 
     </div>
   );
