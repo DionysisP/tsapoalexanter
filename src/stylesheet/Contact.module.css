@@ -89,7 +89,7 @@ a {
     transition: 0.4s;
   }
   .box {
-    z-index: 0;
+    z-index: 1;
     height: 90%;
   }
   .container {
