@@ -15,7 +15,7 @@ export default function App() {
 
   const [menuStatus, setMenuStatus] = useState(0)
   const [showContact, setShowContact] = useState(false)
-  const [servicesBgMovement, setServicesBgMovement] =useState(false)
+  const [servicesBgMovement, setServicesBgMovement] = useState(false)
   const [galleryBgMovement, setGalleryBgMovement] = useState(false)
   const [contactBgMovement, setContactBgMovement] = useState(false)
 
