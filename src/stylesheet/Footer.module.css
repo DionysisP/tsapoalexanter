@@ -3,13 +3,14 @@
   position: absolute;
   bottom: 1vh;
   left: 1vh;
-  color: white;
+  color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
 }
 
 .link {
-  color: #3058a0;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .link:hover {
